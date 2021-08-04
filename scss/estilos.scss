@@ -1,5 +1,6 @@
 @import "_variables";
 
+
 @mixin cajasFlex ($display , $eje , $alineamiento ) {
   display: $display;
   flex-direction: $eje;
