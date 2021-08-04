@@ -559,10 +559,7 @@ footer {
 /************  MEDIA QUERIES *****************/
 
 @media only screen and (max-width:600px){
-  body{
-    background-color: aqua;
-  }
- 
+  
   .contenedorTexto{
     flex-direction: column;
   }
@@ -688,9 +685,7 @@ footer {
 }
 
 @media only screen and (min-width:601px) and (max-width:991px){
-  body{
-    background-color: blue;
-  }
+  
   nav a {
     padding:3px;
     font-size: 0.875em;
