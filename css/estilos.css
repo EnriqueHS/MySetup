@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   text-decoration: none;
   color: inherit;
@@ -24,6 +23,9 @@ ol, ul {
   list-style-type: none;
   margin-bottom: 0; }
 
+img {
+  vertical-align: middle; }
+
 /******** ESTILO DE HEADER ***************/
 header {
   align-items: center;
@@ -41,8 +43,7 @@ header {
   width: 100%; }
 
 nav {
-  padding: 3px 0;
-  /*margin: 0 0 20px 0;****Depende del diseño Hero o no**/ }
+  padding: 3px 0; }
 
 nav a {
   border-bottom: 4px solid #161616;
@@ -72,7 +73,7 @@ ul.menuLink {
   background-color: #f3f3f3;
   width: 100%;
   place-content: center;
-  /*CENTRA LOS HIJOS DEL PADRE VERTICAL Y HORIZONTALMENTE*/
+  /*CENTRA*/
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -84,7 +85,7 @@ ul.menuLink {
     font-size: 7em;
     color: #8c1c31;
     text-transform: uppercase;
-    text-shadow: 1px 1px 3px #f3f3f3;
+    text-shadow: 3px 3px 3px #f3f3f3;
     position: absolute; }
   .contenedorFrontHome__slogan {
     font-size: 1.8em;
@@ -166,9 +167,6 @@ ul.menuLink {
   animation-name: slow;
   animation-duration: 1.5s; }
 
-/*.contenedorSection h2 {
-  padding: 20px 10px;
-}*/
 .contenedorTexto {
   display: flex;
   flex-direction: row;
@@ -278,10 +276,6 @@ ul.menuLink {
   border: none; }
 
 /***********fin de Video Responsive********/
-.tabla {
-  color: black;
-  width: 45%; }
-
 fieldset {
   padding: 10px 20px;
   border-radius: 10px 10px 10px 10px;
@@ -312,46 +306,6 @@ textarea {
 .resetPaddingLeft {
   padding-left: 0; }
 
-/*input, textarea{
-  width: 100%;
-  padding: 10px;
-  border: none;
-  color: #757575;
-  font-size: 1em;
-}
-textarea{
-  max-width: 600px;
-  max-height: 200px;
-  min-height: 100px;
-  color: #757575;
-}
-legend{
-  font-size: 1.2em;
-  padding:20px 10px;
-}
-select{
-  padding: 10px;
-  
-  color: #000;
-}
-label{
-  font-size: 1em;
-  margin: 5px 0;
-}
-fieldset span{
-  display: block;
-  font-size: 00.875em;
-  padding: 5px 0;
-}
-
-#resetBtn:hover{
-  color: var(--color-rojo-tenue);
-  background-color: #f3f3f3;
-}
-#enviarBtn:hover{
-  color: var(--color-rojo-tenue);
-  background-color: #f3f3f3;
-}*/
 .contenedorImagenContacto {
   background: url("../media/img/contacto.jpg") no-repeat center center;
   background-size: cover;
@@ -454,7 +408,6 @@ fieldset span{
 
 /************* COMIENZA ESTILO DE FOOTER ***************/
 footer {
-  /*background-color: #161616;*/
   height: 250px;
   padding: 40px;
   text-align: center;
@@ -542,7 +495,8 @@ footer {
   ul.menuLink {
     display: flex;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    letter-spacing: 2px; }
   footer {
     height: 180px;
     flex-direction: column; }
