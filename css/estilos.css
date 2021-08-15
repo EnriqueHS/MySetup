@@ -107,7 +107,7 @@ ul.menuLink {
   color: #bf2c38;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
-  padding: 30px 10px;
+  padding: 60px 10px;
   text-transform: uppercase;
   text-align: center; }
 
@@ -388,6 +388,7 @@ textarea {
   filter: saturate(180%);
   transform: scale(1.03);
   transition: all 0.3s;
+  box-shadow: 3px 3px 2px #757575;
   /*transform: rotatez(1.5deg);*/ }
 
 .videogaleria {
