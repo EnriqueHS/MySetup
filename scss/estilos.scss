@@ -20,6 +20,11 @@
 body {
   font-family:$fontRoboto;
   font-size:16px;
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   //overflow-x: hidden;//hack animaciones scroll 
 }
 h1, h2 {
