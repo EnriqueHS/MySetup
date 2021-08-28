@@ -1,5 +1,6 @@
 @import "_variables";
 
+//MIXIN
 @mixin cajasFlex ($display , $eje , $alineamiento ) {
   display: $display;
   flex-direction: $eje;
@@ -44,7 +45,7 @@ img{
   vertical-align: middle;
 }
 
-/******** ESTILO DE HEADER ***************/
+/*** ESTILO DE HEADER ***/
 
 header {
   align-items: center;
@@ -87,7 +88,7 @@ ul.menuLink{
 .menuLinkActive a{
   color: #bf2c38;
 }
-/*******************ESTILO DE MAIN *******************/
+/***ESTILO DE MAIN ***/
 
 .contenedorFrontHome {
   background-color: #f3f3f3;
@@ -266,7 +267,7 @@ ul.menuLink{
   filter: saturate(110%);
   z-index: 50;
 }
-/**********Comienzo Video Responsive*******/
+/*** Comienzo Video Responsive ***/
 .contenedorVideo{
   width: 80%;
   margin: 0 auto;
@@ -307,7 +308,7 @@ ul.menuLink{
   height: 100%;
   border: none;
 }
-/***********fin de Video Responsive********/
+/*** Fin de Video Responsive ***/
 
 fieldset {
   padding: 10px 20px;
@@ -432,7 +433,6 @@ textarea{
   transition: all 0.3s;
   box-shadow: 3px 3px 2px #757575;
   /*transform: rotatez(1.5deg);*/
-
 }
 //FIN DE GRID
 
@@ -454,7 +454,7 @@ textarea{
   
 }
 
-/************* COMIENZA ESTILO DE FOOTER ***************/
+/*** COMIENZA ESTILO DE FOOTER ***/
 
 footer {
   height: 250px;
@@ -500,7 +500,7 @@ footer {
   color:$colorRojoTenue;
 }
 
-/*************** COMIENZO DE ANIMACIONES ********************/
+/*** COMIENZO DE ANIMACIONES ***/
 @keyframes slow{
 
   from{
@@ -511,10 +511,10 @@ footer {
   }
 
 }
-/*************** FIN DE ANIMACIONES ********************/
+/*** FIN DE ANIMACIONES ***/
 
 
-/************  MEDIA QUERIES *****************/
+/*** MEDIA QUERIES ***/
 
 @media only screen and (max-width:600px){
   

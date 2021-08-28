@@ -31,7 +31,7 @@ ol, ul {
 img {
   vertical-align: middle; }
 
-/******** ESTILO DE HEADER ***************/
+/*** ESTILO DE HEADER ***/
 header {
   align-items: center;
   background-color: #161616;
@@ -73,7 +73,7 @@ ul.menuLink {
 .menuLinkActive a {
   color: #bf2c38; }
 
-/*******************ESTILO DE MAIN *******************/
+/***ESTILO DE MAIN ***/
 .contenedorFrontHome {
   background-color: #f3f3f3;
   width: 100%;
@@ -242,7 +242,7 @@ ul.menuLink {
   filter: saturate(110%);
   z-index: 50; }
 
-/**********Comienzo Video Responsive*******/
+/*** Comienzo Video Responsive ***/
 .contenedorVideo {
   width: 80%;
   margin: 0 auto; }
@@ -282,7 +282,7 @@ ul.menuLink {
   height: 100%;
   border: none; }
 
-/***********fin de Video Responsive********/
+/*** Fin de Video Responsive ***/
 fieldset {
   padding: 10px 20px;
   border-radius: 10px 10px 10px 10px;
@@ -414,7 +414,7 @@ textarea {
     color: #f3f3f3;
     padding-bottom: 3em; }
 
-/************* COMIENZA ESTILO DE FOOTER ***************/
+/*** COMIENZA ESTILO DE FOOTER ***/
 footer {
   height: 250px;
   padding: 40px;
@@ -453,15 +453,15 @@ footer {
 .navegador__menu a:hover {
   color: #8c1c31; }
 
-/*************** COMIENZO DE ANIMACIONES ********************/
+/*** COMIENZO DE ANIMACIONES ***/
 @keyframes slow {
   from {
     opacity: 0; }
   to {
     opacity: 1; } }
 
-/*************** FIN DE ANIMACIONES ********************/
-/************  MEDIA QUERIES *****************/
+/*** FIN DE ANIMACIONES ***/
+/*** MEDIA QUERIES ***/
 @media only screen and (max-width: 600px) {
   .contenedorTexto {
     flex-direction: column; }
